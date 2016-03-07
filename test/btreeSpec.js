@@ -1,5 +1,5 @@
 var expect = require('chai').expect,
-	btree = require('btreenode');
+	btree = require('../lib/btree');
 
 var tree = new btree.createTree();
 

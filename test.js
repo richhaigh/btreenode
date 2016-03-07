@@ -1,4 +1,4 @@
-var btree = require('btreenode');  
+var btree = require('./lib/btree');  
 
 // Create a new tree
 var tree = new btree.createTree();	
