@@ -8,7 +8,7 @@
   },
 	"dependencies": {
 		"btreenode": "*",
-		chai: "*"
+		"chai": "*"
 	},
   "repository": {
     "type": "git",
