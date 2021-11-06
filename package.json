@@ -1,6 +1,6 @@
 {
 	"name": "btreenode",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"description": "A binary tree module for NodeJS",
 	"main": "./lib/btree.js",
 	"scripts": {
