@@ -1,1 +1,1 @@
-module.exports = requires('./lib/btree');
+module.exports = require('./lib/btree');
