@@ -1,7 +1,7 @@
 {
 	"name": "btreenode",
-	"version": "1.0.3",
-	"description": "A modern binary tree module for NodeJS with ES6+ features",
+	"version": "2.0.0",
+	"description": "A modern, high-performance binary search tree with AVL balancing, ES6+ features, and comprehensive error handling",
 	"main": "./lib/btree.js",
 	"scripts": {
 		"test": "mocha test/**/*.js",
@@ -32,6 +32,7 @@
 	"keywords": [
 		"btree",
 		"binary-tree",
+		"avl-tree",
 		"data-structure",
 		"tree",
 		"search",
@@ -39,7 +40,11 @@
 		"es6",
 		"modern",
 		"class",
-		"javascript"
+		"javascript",
+		"balanced-tree",
+		"performance",
+		"logarithmic",
+		"nodejs"
 	],
 	"engines": {
 		"node": ">=8.0.0"
