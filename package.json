@@ -4,7 +4,9 @@
 	"description": "A binary tree module for NodeJS",
 	"main": "./lib/btree.js",
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"test": "mocha test/**/*.js",
+		"test:watch": "mocha test/**/*.js --watch",
+		"test:coverage": "nyc mocha test/**/*.js"
 	},
 	"repository": {
 		"type": "git",
@@ -14,15 +16,24 @@
 		"lib": "./lib"
 	},
 	"dependencies": {
-		"util": "*",
-		"node.extend": "*",
-		"chai": "*"
+		"node.extend": "^2.0.2"
+	},
+	"devDependencies": {
+		"mocha": "^10.0.0",
+		"chai": "^4.3.0",
+		"nyc": "^15.1.0"
 	},
 	"keywords": [
 		"btree",
-		"node",
-		"binary tree"
+		"binary-tree",
+		"data-structure",
+		"tree",
+		"search",
+		"sort"
 	],
+	"engines": {
+		"node": ">=8.0.0"
+	},
 	"author": "Rich Haigh",
 	"license": "ISC",
 	"bugs": {
