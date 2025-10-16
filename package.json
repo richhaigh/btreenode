@@ -6,7 +6,12 @@
 	"scripts": {
 		"test": "mocha test/**/*.js",
 		"test:watch": "mocha test/**/*.js --watch",
-		"test:coverage": "nyc mocha test/**/*.js"
+		"test:coverage": "nyc mocha test/**/*.js",
+		"test:modern": "mocha test/btree-modern-spec.js",
+		"test:avl": "mocha test/avl-balancing-spec.js",
+		"test:errors": "mocha test/error-handling-spec.js",
+		"test:performance": "mocha test/performance-spec.js",
+		"test:legacy": "mocha test/btreeSpec.js"
 	},
 	"repository": {
 		"type": "git",
