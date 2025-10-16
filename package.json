@@ -1,7 +1,7 @@
 {
 	"name": "btreenode",
 	"version": "1.0.3",
-	"description": "A binary tree module for NodeJS",
+	"description": "A modern binary tree module for NodeJS with ES6+ features",
 	"main": "./lib/btree.js",
 	"scripts": {
 		"test": "mocha test/**/*.js",
@@ -29,7 +29,11 @@
 		"data-structure",
 		"tree",
 		"search",
-		"sort"
+		"sort",
+		"es6",
+		"modern",
+		"class",
+		"javascript"
 	],
 	"engines": {
 		"node": ">=8.0.0"
